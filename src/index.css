@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+.header{
+  background: #F55A5A;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  width: 550px;
+  height: 55px;
+  
+}
+
+.header > h1 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 18px;
+  letter-spacing: -0.075em;
+}
+
+.main{
+  
+  width: 550px;
+  height: 650px;
+}
+
+.item{
+  width: 470px;
+  height: 168px;
+  margin: 50px 40px 40px 40px;
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.item > img {
+  width: 125px;
+  height: 168px;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+.item-text{
+  height: 100%;
+}
+
+.location > h3 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  color: #2B283A;
+}
+
+.location > a {
+  color: #918E9B;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  text-decoration-line: underline;
+}
+
+.item-text > h1 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  color: #2B283A;
+  margin-top: 4px;
+  margin-bottom: 7px;
+
+}
+.date > span{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10.24px;
+  color: #2B283A;
+  margin-bottom: 9px;
+}
+
+.desc{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  color: #2B283A;
+
+}
+
+.location{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+}
+
+.btn {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  background-color: white;
+  border: 2px solid #14213d;
+  color: #14213d;
+  padding: 10px 7px;
+  border-radius: 12px;
+  margin: 50px 10px 20px 10px
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+.form > input {
+    font-family: 'Inter';
+    border-radius: 5px;
+    border: 1px solid #D5D4D8;
+    text-indent: 5px;
+    padding: 10px;
+}
+
+.btn:hover{
+  background-color: #14213d;
+  transition: 0.7s;
+  color: white;
+}
