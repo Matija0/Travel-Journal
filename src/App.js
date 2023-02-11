@@ -14,11 +14,11 @@ function App() {
   return (
    <div className="App">
     <Header />
-    <Navbar />
+    
     <Routes> 
         <Route exact path="/" element={<Main />}/>
         <Route path="/Input" element={<Input/>}/>
-        
+        <Route path="/Test" element={<Test/>}/>
     </Routes>
     
     </div>
@@ -42,6 +42,9 @@ function Navbar(){
       </Link>
       <Link to="/">
         <button className="btn">Home</button>
+      </Link>
+      <Link to="/Test">
+        <button className="btn">Test</button>
       </Link>
       
     </div>

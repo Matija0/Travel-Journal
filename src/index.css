@@ -3,6 +3,10 @@
 * {
   box-sizing: border-box;
 }
+.selected{
+ border: 2px solid #2B283A;
+ border-radius: 5px;
+}
 
 .header{
   background: #F55A5A;
@@ -32,7 +36,7 @@
 }
 
 .item{
-  width: 470px;
+  width: 100%;
   height: 168px;
   margin: 50px 40px 40px 40px;
   display: flex;
@@ -105,13 +109,14 @@
 .btn {
   font-family: 'Inter';
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   background-color: white;
   border: 2px solid #14213d;
   color: #14213d;
-  padding: 10px 7px;
-  border-radius: 12px;
-  margin: 50px 10px 20px 10px
+  padding: 7px 7px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 5px;
 }
 
 .form{
@@ -128,8 +133,68 @@
     padding: 10px;
 }
 
+.buttons{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
 .btn:hover{
   background-color: #14213d;
-  transition: 0.7s;
+  transition: 0.2s;
   color: white;
 }
+
+.btn-select{
+  
+  font-style: normal;
+  font-weight: 500;
+  background-color: white;
+  border: 2px solid #6a4c93;
+  color: #6a4c93;
+  padding: 5px 5px;
+  border-radius: 10px;
+  
+}
+
+.btn-select:hover{
+  background-color: #6a4c93;
+  transition: 0.5s;
+  color: white;
+}
+
+.btn-unselect{
+  
+  font-style: normal;
+  font-weight: 500;
+  background-color: white;
+  border: 2px solid #588157;
+  color: #588157;
+  padding: 5px 5px;
+  border-radius: 10px;
+  
+}
+
+.btn-unselect:hover{
+  background-color: #588157;
+  transition: 0.5s;
+  color: white;
+  
+}
+
+.btn-remove{
+  font-style: normal;
+  font-weight: 500;
+  background-color: white;
+  border: 2px solid #e63946;
+  color: #e63946;
+  padding: 5px 5px;
+  border-radius: 10px;
+}
+
+.btn-remove:hover{
+  background-color: #e63946;
+  transition: 0.2s;
+  color: white;
+}
+
